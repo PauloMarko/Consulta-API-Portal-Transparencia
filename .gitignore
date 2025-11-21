@@ -6,10 +6,14 @@ dist/
 wheels/
 *.egg-info
 
+# IDE project directory
+.vscode
+.idea
+
 # Virtual environments
 .venv
 
-
+# Non necessary files/directories
 cpfs.csv
-example.json
-api_key.toml
+.env
+output.csv
