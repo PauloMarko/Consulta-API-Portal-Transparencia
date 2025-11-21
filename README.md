@@ -1,6 +1,6 @@
 # Consulta Automatizada à API do Portal da Transparência
 
-[![Licença](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![Python 3.13+](https://img.shields.io/badge/python-3.13%2B-blue)](https://www.python.org/downloads/) [![Static Badge](https://img.shields.io/badge/0.9%2B-purple?label=uv&color=purple)](https://github.com/astral-sh/uv)
+ [![Python 3.13+](https://img.shields.io/badge/python-3.13%2B-blue)](https://www.python.org/downloads/) [![Static Badge](https://img.shields.io/badge/0.9%2B-purple?label=uv&color=purple)](https://github.com/astral-sh/uv)
 
 ### 1. Descrição do projeto
 Este projeto tem como objetivo de desenvolver um sistema modular e reutilizável em Python em que realiza consultas automáticas à [**API do Portal da Transparência**](https://portaldatransparencia.gov.br/api-de-dados) do Governo Federal a partir de uma lista de CPFs e armazene os resultados em um arquivo CSV utilizando os princípios da **Programação Orientada à Objetos (POO)**.

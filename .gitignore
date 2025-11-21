@@ -10,11 +10,11 @@ wheels/
 .venv
 
 # Obsidian
-.obsidian
+.obsidian/
 
 #IDE project directories
-.vscode
-.idea
+.vscode/
+.idea/
 
 cpfs.csv
 example.json
