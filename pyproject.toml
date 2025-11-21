@@ -7,19 +7,11 @@ requires-python = ">=3.13"
 dependencies = [
     "requests",
     "logging",
-    "dotenv",
+    "toml",
     "pycodestyle",
     "bandit",
+    "pylint",
     "radon",
     "pydantic",
     "pandas",
-    "ruff",
 ]
-
-[tool.ruff]
-line-length = 88
-select = ["E", "W", "F", "S", "C90"]
-ignore = ["E501"]
-
-[tool.ruff.mccabe]
-max-complexity = 10
