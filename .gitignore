@@ -9,7 +9,15 @@ wheels/
 # Virtual environments
 .venv
 
+# Obsidian
+.obsidian
+
+#IDE project directories
+.vscode
+.idea
 
 cpfs.csv
 example.json
-api_key.toml
+dados-cpfs.csv
+.env
+logfile.log
