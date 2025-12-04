@@ -1,21 +1,21 @@
 # Consulta Automatizada à API do Portal da Transparência
 
- [![Python 3.13+](https://img.shields.io/badge/python-3.13%2B-blue)](https://www.python.org/downloads/) [![Static Badge](https://img.shields.io/badge/0.9%2B-purple?label=uv&color=purple)](https://github.com/astral-sh/uv)
+ [![Python 3.13+](https://img.shields.io/badge/python-3.13%2B-blue)](https://www.python.org/downloads/) [![Static Badge](https://img.shields.io/badge/0.9%2B-de5fe9?style=flat&label=uv)](https://github.com/astral-sh/uv)
 
 ### 1. Descrição do projeto
 Este projeto tem como objetivo de desenvolver um sistema modular e reutilizável em Python em que realiza consultas automáticas à [**API do Portal da Transparência**](https://portaldatransparencia.gov.br/api-de-dados) do Governo Federal a partir de uma lista de CPFs e armazene os resultados em um arquivo CSV utilizando os princípios da **Programação Orientada à Objetos (POO)**.
 
 ### 2. Funcionalidades
- - Lê CPFs de um arquivo CSV 
- - Consulta a API oficial (com chave própria) 
- - Valida e padroniza os dados com Pydantic 
- - Salva tudo em CSV estruturado (fácil de abrir no Excel/LibreOffice) 
+ - Lê CPFs de um arquivo CSV.
+ - Consulta a API oficial (com chave própria).
+ - Valida e padroniza os dados com Pydantic. 
+ - Salva tudo em CSV estruturado (fácil de abrir no Excel/LibreOffice). 
  - Logging completo de erros e sucessos.
 
 ### 3. Pré-requisitos
 - Python 3.13 ou superior
 - Chave de API do Portal da Transparência → [registre aqui](http://portaldatransparencia.gov.br/api-de-dados/cadastrar-email)
-- [UV 0.9.10](https://github.com/astral-sh/uv) ou superior (Recomendado).
+- [UV 0.9.10](https://github.com/astral-sh/uv) ou superior (Recomendado para gerenciar o projeto).
 
 ### 4. Justificativa
 A automatização da coleta de dados públicos permite otimizar o tempo de análise e aumentar a precisão de auditorias, fiscalizações e pesquisas relacionadas ao uso de recursos públicos. Este projeto oferece uma solução prática e extensível para consultas em massa, servindo como base para sistemas mais complexos de análise de dados governamentais.
@@ -52,6 +52,7 @@ Além disso, usei o linter e formatador chamado `ruff` que é extremamente rápi
 	10987654321
 	...
 	```
+	OBS.: o programa vai procurar o arquivo `cpfs.csv` por padrão.
 
 2. Crie (opcional) um arquivo `.env` na pasta raiz:
 	```
