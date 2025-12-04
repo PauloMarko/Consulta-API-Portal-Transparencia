@@ -1,6 +1,6 @@
 # Consulta Automatizada à API do Portal da Transparência
 
- [![Python 3.13+](https://img.shields.io/badge/python-3.13%2B-blue)](https://www.python.org/downloads/) [![Static Badge](https://img.shields.io/badge/0.9%2B-de5fe9?style=flat&label=uv)](https://github.com/astral-sh/uv)
+ [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![Python 3.13+](https://img.shields.io/badge/python-3.13%2B-blue)](https://www.python.org/downloads/) [![Static Badge](https://img.shields.io/badge/0.9%2B-de5fe9?style=flat&label=uv)](https://github.com/astral-sh/uv) 
 
 ### 1. Descrição do projeto
 Este projeto tem como objetivo de desenvolver um sistema modular e reutilizável em Python em que realiza consultas automáticas à [**API do Portal da Transparência**](https://portaldatransparencia.gov.br/api-de-dados) do Governo Federal a partir de uma lista de CPFs e armazene os resultados em um arquivo CSV utilizando os princípios da **Programação Orientada à Objetos (POO)**.
@@ -74,4 +74,4 @@ Além disso, usei o linter e formatador chamado `ruff` que é extremamente rápi
 | 12345678901 | JOÃO DA SILVA | 12345678910 | False              | True     | ... |
 
 ### Autor
-Marcos Paulo Alves de Araújo - IFRN Campus Caicó - Informática para Internet 2V - 2025
+Copyright © 2025 Marcos Paulo Alves de Araújo - IFRN Campus Caicó - Informática para Internet 2V - Todos os direitos reservados conforme licença Apache 2.0.

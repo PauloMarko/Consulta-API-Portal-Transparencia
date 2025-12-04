@@ -1,7 +1,9 @@
 [project]
 name = "consulta-api-portal-da-trasparencia"
 version = "0.1.0"
-description = "Add your description here"
+description = "Programa de consulta à API do Portal da Transparência"
+authors = ["Marcos Paulo <paulo.marcos1@escolar.ifrn.edu.br>"]
+license = [text = "Apache 2.0"]
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
