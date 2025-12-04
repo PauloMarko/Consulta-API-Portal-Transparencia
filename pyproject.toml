@@ -7,11 +7,36 @@ requires-python = ">=3.13"
 dependencies = [
     "requests",
     "logging",
-    "toml",
-    "pycodestyle",
-    "bandit",
-    "pylint",
+    "dotenv",
     "radon",
     "pydantic",
     "pandas",
+    "ruff",
+]
+
+[tool.ruff]
+line-length = 120
+output-format = "grouped"
+
+[tool.ruff.lint]
+select = ["E", "W", "S", "C90", "LOG", "G"]
+ignore = ["E501", "G004"]
+
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["F401"]
+"LeitorCSV.py" = ["F401"]
+"GravadorCSV.py" = ["F401"]
+"ValidarDados.py" = ["F401"]
+"ConsultaAPI.py" = ["F401"]
+"ControladorAplicacao.py" = ["F401"]
+"main.py" = ["F401"]
+
+[tool.bandit]
+exclude_dirs = [".venv", "tests"]
+skips = ["B101"]
+
+[tool.pyrefly]
+project-includes = [
+    "**/*.py*",
+    "**/*.ipynb",
 ]

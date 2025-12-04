@@ -16,8 +16,11 @@ wheels/
 .vscode/
 .idea/
 
+#Ruff cache
+.ruff_cache/
+
 cpfs.csv
 example.json
-dados-cpfs.csv
+dados.csv
 .env
 logfile.log
